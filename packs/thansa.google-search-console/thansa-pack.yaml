@@ -1,0 +1,12 @@
+format: thansa-pack
+spec: 1
+id: thansa.google-search-console
+version: 1.0.3
+name: {vi: "Google Search Console"}
+description: {vi: "Số liệu SEO website: khách tìm từ khoá gì ra trang của bạn, lượt hiển thị, lượt bấm, trang top."}
+author: {name: Thansa}
+license: MIT
+homepage: "https://github.com/xahoapro/thansa-store"
+compat: {app: ">=0.55.27"}
+provides:
+  connectors: [connectors/google-search-console.json]

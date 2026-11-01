@@ -1,0 +1,12 @@
+format: thansa-pack
+spec: 1
+id: thansa.hostinger
+version: 1.0.3
+name: {vi: "Hostinger"}
+description: {vi: "Quản lý hosting Hostinger ngay trong chat: xem tên miền và ngày hết hạn, sửa bản ghi DNS, xem website và WordPress, VPS, hộp thư, hoá đơn và gói đang chạy. MCP chính chủ của Hostinger, dán API token là xong."}
+author: {name: Thansa}
+license: MIT
+homepage: "https://github.com/xahoapro/thansa-store"
+compat: {app: ">=0.55.27"}
+provides:
+  connectors: [connectors/hostinger.json]

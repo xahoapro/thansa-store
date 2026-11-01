@@ -1,0 +1,12 @@
+format: thansa-pack
+spec: 1
+id: thansa.shopify
+version: 1.0.2
+name: {vi: "Shopify"}
+description: {vi: "Tra cứu sản phẩm, giá, tồn kho và dựng sẵn giỏ hàng của MỘT cửa hàng Shopify qua MCP chính chủ (chuẩn UCP). Không cần API key, không cần cài app, không cần là chủ shop - chỉ cần địa chỉ cửa hàng."}
+author: {name: Thansa}
+license: MIT
+homepage: "https://github.com/xahoapro/thansa-store"
+compat: {app: ">=0.55.27"}
+provides:
+  connectors: [connectors/shopify.json]
