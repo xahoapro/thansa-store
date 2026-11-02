@@ -2864,7 +2864,7 @@
         "vi": "Skill của Lemomo dựng phim ngắn hoàn toàn bằng code theo 59 phong cách (sơn dầu, màu nước, ukiyo-e, ảnh vệ tinh...): kịch bản, hình, nhạc, lồng tiếng. Cần Node 20+, ffmpeg, Python 3.11+; chạy tốt nhất với Claude.",
         "en": "Lemomo's skill for short films made entirely in code in 59 styles (oil paint, watercolor, ukiyo-e, satellite...): story, picture, score, narration. Needs Node 20+, ffmpeg, Python 3.11+; tuned for Claude."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Lemomo",
         "url": "https://github.com/lemomo-ai/lemo-opuscar"
@@ -2876,15 +2876,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-28",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.lemo-opuscar",
       "source": "https://github.com/lemomo-ai/lemo-opuscar",
       "license": "MIT",
       "upstream": {
         "repo": "lemomo-ai/lemo-opuscar",
         "ref": "main",
-        "commit": "413a6bd6d78ebd3bdd5abaec9538a26867f890df",
-        "synced": "2026-10-28"
+        "commit": "bebbbe1aa92a3cb4bb6f83500e61b23a17d1aa00",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -2892,9 +2892,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-lemo-opuscar-1.0.0.zip",
-        "sha256": "3fe5bb1d618b4281f3f8f6689b92ba37a730a5e005e3cac193cd8e5be8ed9777",
-        "size": 6933
+        "url": "dist/thansa-lemo-opuscar-1.0.1.zip",
+        "sha256": "6215b942ecd41236d599787c07e08bc3b76a4dcf6fa6b5a03dcfc7bfcebbbdc9",
+        "size": 7016
       }
     },
     {
@@ -3335,7 +3335,7 @@
         "vi": "Bộ skill của HeyGen để AI làm video bằng HTML: lên ý tưởng, dựng cảnh, hoạt hình, slideshow, lấy thiết kế từ Figma, chuyển dự án Remotion sang, rồi xuất video. Cần Node 22+ và ffmpeg.",
         "en": "HeyGen's skills for making video in HTML: plan, build scenes, animate, slideshows, pull designs from Figma, migrate Remotion projects, then render. Needs Node 22+ and ffmpeg."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "HeyGen",
         "url": "https://github.com/heygen-com/hyperframes"
@@ -3347,15 +3347,15 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-10-28",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.hyperframes",
       "source": "https://github.com/heygen-com/hyperframes",
       "license": "Apache-2.0",
       "upstream": {
         "repo": "heygen-com/hyperframes",
         "ref": "main",
-        "commit": "7758d9b8fd507384573eb56ba84cc62fb20444c6",
-        "synced": "2026-10-28"
+        "commit": "d17b958318b3616ede33dec84d7a1c3eb8bc4b5a",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -3365,13 +3365,14 @@
           "hyperframes-registry",
           "media-use",
           "remotion-to-hyperframes",
+          "reverse-any-video",
           "slideshow"
         ]
       },
       "download": {
-        "url": "dist/thansa-hyperframes-1.0.0.zip",
-        "sha256": "5879d91d43a591fc5fcfd58a56403090862876d0a638c91886d14900a559bdc8",
-        "size": 2074916
+        "url": "dist/thansa-hyperframes-1.0.1.zip",
+        "sha256": "910ef6e3a5d558e91886db23613ae2565d144dc2c86887d6c03ba117c6b272be",
+        "size": 2088549
       }
     },
     {
@@ -3385,7 +3386,7 @@
         "vi": "52 skill marketing của Corey Haines, repo marketing nhiều sao nhất: viết copy, tối ưu chuyển đổi, SEO và SEO cho AI, quảng cáo, email, định giá, ra mắt sản phẩm, giới thiệu bạn bè, đo lường, chống rời bỏ.",
         "en": "Corey Haines's 52 marketing skills, the most-starred marketing repo: copywriting, conversion, SEO and AI search, ads, email, pricing, launches, referrals, analytics and churn prevention."
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Corey Haines",
         "url": "https://github.com/coreyhaines31/marketingskills"
@@ -3397,15 +3398,15 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-10-30",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.marketingskills",
       "source": "https://github.com/coreyhaines31/marketingskills",
       "license": "MIT",
       "upstream": {
         "repo": "coreyhaines31/marketingskills",
         "ref": "main",
-        "commit": "820ad2c1c0ac4cc350158bd7912c753681a7d173",
-        "synced": "2026-10-30"
+        "commit": "88c79f6528a9347420e57ceb1fff9a60de651768",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -3452,6 +3453,7 @@
           "prospecting",
           "public-relations",
           "referrals",
+          "reverse-engineer-marketing",
           "revops",
           "sales-enablement",
           "schema",
@@ -3464,9 +3466,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-marketingskills-1.0.1.zip",
-        "sha256": "f1633582544c05b6caa287d3a11901d81da0792dd8dca2581df78f2131a160c1",
-        "size": 1690619
+        "url": "dist/thansa-marketingskills-1.0.2.zip",
+        "sha256": "ec8bd6322b7d5876423ca64f8f394da761279f272a59cc2518b36f306e13addf",
+        "size": 1864031
       }
     },
     {
@@ -3594,7 +3596,7 @@
         "vi": "Bộ skill thiết kế giao diện nổi nhất: kho phong cách, bảng màu, cặp font và quy tắc UX để AI dựng trang web, landing page, banner, slide và hệ thống thiết kế đẹp ngay lần đầu. Cần Python 3.",
         "en": "The most popular interface design skills: a library of styles, palettes, font pairings and UX rules so the AI builds websites, landing pages, banners, slides and design systems that look right first time. Needs Python 3."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Next Level Builder",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
@@ -3606,15 +3608,15 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-10-28",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ui-ux-pro-max",
       "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "license": "MIT",
       "upstream": {
         "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
         "ref": "main",
-        "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
-        "synced": "2026-10-28"
+        "commit": "3a13158ff1f32156cbe144108de48eda2ecaed9a",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -3628,9 +3630,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-ui-ux-pro-max-1.0.0.zip",
-        "sha256": "5d9b48a3c6ae5c6791771f980ccb002576a1ce60ec9200f050568be31b402ec7",
-        "size": 3539110
+        "url": "dist/thansa-ui-ux-pro-max-1.0.1.zip",
+        "sha256": "2f417ec3ba5c3b08ef8ebe0aeca4ec9c9af2cb4f21a3b68efe91c272c3d76ae8",
+        "size": 3553983
       }
     },
     {
@@ -3741,7 +3743,7 @@
         "vi": "Skill lập kế hoạch kiểu Manus: việc dài được chia thành kế hoạch, ghi chú và tiến độ trong tệp markdown, nên AI không quên mục tiêu giữa chừng và làm tiếp được sau khi gián đoạn.",
         "en": "Manus-style planning: long tasks keep their plan, findings and progress in markdown files, so the AI does not lose the goal halfway and can pick up after an interruption."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Ahmad Othman Adi",
         "url": "https://github.com/OthmanAdi/planning-with-files"
@@ -3753,15 +3755,15 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-10-28",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.planning-with-files",
       "source": "https://github.com/OthmanAdi/planning-with-files",
       "license": "MIT",
       "upstream": {
         "repo": "OthmanAdi/planning-with-files",
         "ref": "master",
-        "commit": "dcdfb278de53fdb69b2067ea173dbb1de45345a3",
-        "synced": "2026-10-28"
+        "commit": "b6580cd24af1d8a95ab268794456e05608a1afd3",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -3769,9 +3771,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-planning-with-files-1.0.0.zip",
-        "sha256": "c5df7c57f35d46272821776e071e6d67c6a6908cf869207c0856fd6b974615c5",
-        "size": 161510
+        "url": "dist/thansa-planning-with-files-1.0.1.zip",
+        "sha256": "cc2a96a87e2e689b7eccca1893bbb76cb4629870e77eedbb82200ebfa20799cf",
+        "size": 169675
       }
     },
     {
