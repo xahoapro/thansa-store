@@ -1,7 +1,7 @@
 {
   "format": "thansa-pack-index",
   "format_version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "store": {
     "name": "Kho cài đặt Thansa",
     "url": "https://github.com/xahoapro/thansa-store"
@@ -2908,7 +2908,7 @@
         "vi": "Bộ skill chính chủ của Remotion (remotion.dev): tạo dự án video bằng React, hoạt hình, chữ và hiệu ứng, phụ đề, bản đồ, xem trước và xuất video. Theo repo gốc, cập nhật mỗi khi Remotion sửa skill.",
         "en": "Remotion's official skills (remotion.dev): create React video projects, animation, type and effects, captions, maps, preview and render. Follows the source repo and updates whenever Remotion changes its skills."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Remotion",
         "url": "https://github.com/remotion-dev/skills"
@@ -2920,15 +2920,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-28",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.remotion",
       "source": "https://github.com/remotion-dev/skills",
       "license": "Remotion License",
       "upstream": {
         "repo": "remotion-dev/skills",
         "ref": "main",
-        "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
-        "synced": "2026-10-28"
+        "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -2937,6 +2937,7 @@
           "remotion-create",
           "remotion-docs",
           "remotion-interactivity",
+          "remotion-license",
           "remotion-maps",
           "remotion-markup",
           "remotion-multimedia",
@@ -2947,9 +2948,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-remotion-1.0.0.zip",
-        "sha256": "57a2411a6d36533af01b84d70d8b7516115136575392acbdea90ba2e3a12bd97",
-        "size": 873304
+        "url": "dist/thansa-remotion-1.0.1.zip",
+        "sha256": "2f539411de5c76ca19789f51a15d2f0a0bc67bb54f303eadf79419515d598cca",
+        "size": 880750
       }
     },
     {
@@ -3549,7 +3550,7 @@
         "vi": "Skill của REA (Reverse Engineer Anything), repo AI đang nổi nhất GitHub: phân tích app Electron/JavaScript, tệp chạy, firmware và trang web khi không có mã nguồn, so sánh phiên bản, dịch ngược. Cần cài công cụ rea (npm rea-agents).",
         "en": "The REA (Reverse Engineer Anything) skill, GitHub's top trending AI repo: analyse Electron/JavaScript apps, binaries, firmware and web apps without their source, compare versions, decompile. Needs the rea tool (npm rea-agents)."
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": {
         "name": "morluto",
         "url": "https://github.com/morluto/rea"
@@ -3561,15 +3562,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-11-01",
+      "updated": "2026-11-02",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.rea",
       "source": "https://github.com/morluto/rea",
       "license": "MIT",
       "upstream": {
         "repo": "morluto/rea",
         "ref": "main",
-        "commit": "1aa6beb5dc937a19e87df70b56df48f0d4e09541",
-        "synced": "2026-11-01"
+        "commit": "93b8b82db70279e40f484114cff9dc1958dc14ee",
+        "synced": "2026-11-02"
       },
       "provides": {
         "skills": [
@@ -3577,9 +3578,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-rea-1.0.4.zip",
-        "sha256": "6cde59b90bbabdcc7ba3a851cac25471fbaf084ca93c4d62e726d6b2c77ae462",
-        "size": 64296
+        "url": "dist/thansa-rea-1.0.5.zip",
+        "sha256": "4774d042e09ad92592c6abbdd05ba65554371e54dd7b3d49902d7bf757306f08",
+        "size": 64715
       }
     },
     {
