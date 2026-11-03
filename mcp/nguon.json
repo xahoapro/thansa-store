@@ -62,7 +62,13 @@
       "lenh": [
         "pancake-chat-mcp"
       ],
-      "sha256": "be09f68e2f997bd21f5f5896c065abe2bd256700e1a5fda98f50447a9d09671b"
+      "sha256": "5fb26d16b4dcefd2ed1e6c34739017f2a3f0e1d0a224ac8e3c4dacc2e4cecbd9",
+      "ban_cu": [
+        {
+          "phien_ban": "1.0.0",
+          "sha256": "cdddb7ab2e295314c83e13250c0303a499b19f7d92192f4796158c86564f7f79"
+        }
+      ]
     }
   ]
 }

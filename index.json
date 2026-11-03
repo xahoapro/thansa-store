@@ -9,7 +9,7 @@
   "_doc": "Danh mục Thansa đọc thẳng. Thêm một mục ở đây là mọi máy đang chạy Thansa thấy ngay, không cần bản cập nhật. Cách gửi gói: xem CONTRIBUTING.md. Trường _doc và mọi khoá lạ khác đều bị Thansa bỏ qua khi đọc.",
   "packs": [
     {
-      "id": "thansa.tinh-gia",
+      "id": "thansa.pricing",
       "kind": "tool",
       "name": {
         "vi": "Tính giá bán",
@@ -19,7 +19,7 @@
         "vi": "Từ giá vốn ra giá niêm yết: chọn biên lợi nhuận hoặc markup, cộng VAT, làm tròn lên số đẹp. Trả về biên thực tế sau khi làm tròn.",
         "en": "Turn cost into a shelf price: margin or markup, VAT, rounded up to a tidy number. Reports the real margin after rounding."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -30,26 +30,29 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-09-04",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.tinh-gia",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.pricing",
       "download": {
-        "url": "dist/thansa-tinh-gia-1.0.0.zip",
-        "sha256": "ff037b5afc1b7b0072c6a993a90f7c01baf9679283a8da3d3a45d7fd40050f43",
-        "size": 5289
-      }
+        "url": "dist/thansa-pricing-1.1.0.zip",
+        "sha256": "71cd9301ce7fe178324534f0b130b3808ab66be9567b05a08cea1807e495c1ee",
+        "size": 5297
+      },
+      "replaces": [
+        "thansa.tinh-gia"
+      ]
     },
     {
-      "id": "thansa.khach-hang-crm",
+      "id": "thansa.crm",
       "kind": "bundle",
       "name": {
         "vi": "Quản lý khách hàng (CRM)",
         "en": "Customer management (CRM)"
       },
       "description": {
-        "vi": "Sổ khách hàng đặt lên trang Hội thoại: khách từ Telegram, Zalo Bot, Zalo cá nhân; hồ sơ và lịch sử từng người, gắn tag, ghi chú, khách chờ trả lời, thống kê, xuất Excel. Kèm trợ lý CSKH và quy trình rà soát mỗi ngày. Cần Thansa 0.60.1 trở lên.",
-        "en": "A customer book on top of the Conversations page: customers from Telegram, Zalo Bot and personal Zalo; per-person profile and history, tags, notes, unanswered queue, stats, Excel export. Ships a support agent and a daily review workflow. Needs Thansa 0.60.1 or newer."
+        "vi": "Sổ khách hàng đặt lên trang Hội thoại: khách từ Telegram, Zalo Bot, Zalo cá nhân; hồ sơ và lịch sử từng người, gắn tag, ghi chú, khách chờ trả lời, thống kê, xuất Excel. Kèm trợ lý CSKH và quy trình rà soát mỗi ngày. Cần Thansa 0.440.0 trở lên.",
+        "en": "A customer book on top of the Conversations page: customers from Telegram, Zalo Bot and personal Zalo; per-person profile and history, tags, notes, unanswered queue, stats, Excel export. Ships a support agent and a daily review workflow. Needs Thansa 0.440.0 or newer."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -60,14 +63,17 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-09-20",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.khach-hang-crm",
-      "icon": "packs/thansa.khach-hang-crm/assets/khach-hang-crm.png",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.crm",
+      "icon": "packs/thansa.crm/assets/crm.png",
       "download": {
-        "url": "dist/thansa-khach-hang-crm-1.0.0.zip",
-        "sha256": "e391a249f511134173bbb2c50c2fc510f3a8a7929ee153d7b4fb51a009086573",
-        "size": 14070
-      }
+        "url": "dist/thansa-crm-1.1.0.zip",
+        "sha256": "92e2c11b3acdf31c54a4e04b953dce709570a20a4f685fd8954e1011e1f6e8ad",
+        "size": 14006
+      },
+      "replaces": [
+        "thansa.khach-hang-crm"
+      ]
     },
     {
       "id": "thansa.composio",
@@ -1945,7 +1951,7 @@
       }
     },
     {
-      "id": "thansa.quang-cao-so-lieu",
+      "id": "thansa.ads-analytics",
       "kind": "workflow",
       "name": {
         "vi": "Quảng cáo & số liệu",
@@ -1955,7 +1961,7 @@
         "vi": "3 trợ lý và 3 quy trình đọc số quảng cáo: báo cáo Meta/Google/TikTok Ads hàng tuần, săn ngân sách đang đốt vô ích, và đọc Google Search Console hàng tháng. Mọi con số đều phải chỉ ra nguồn, và bước cuối luôn có một trợ lý kiểm chứng độc lập.",
         "en": "3 agents and 3 workflows for ad analytics: weekly Meta/Google/TikTok reports, wasted-spend hunting, and a monthly Search Console read. Every number must cite its source, and an independent verifier checks the final step."
       },
-      "version": "1.0.1",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -1965,8 +1971,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-09-05",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.quang-cao-so-lieu",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ads-analytics",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -1981,13 +1987,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-quang-cao-so-lieu-1.0.1.zip",
-        "sha256": "0e8e2467da160550e65db03da2115bab669a5e28a3b46fb3f38645033029f63b",
-        "size": 8134
-      }
+        "url": "dist/thansa-ads-analytics-1.1.0.zip",
+        "sha256": "9a68b0cd2aa015a94a23a70751575aee456f3f5535a737597dc2187a07762710",
+        "size": 8149
+      },
+      "replaces": [
+        "thansa.quang-cao-so-lieu"
+      ]
     },
     {
-      "id": "thansa.noi-dung-social",
+      "id": "thansa.content-social",
       "kind": "workflow",
       "name": {
         "vi": "Nội dung & mạng xã hội",
@@ -1997,7 +2006,7 @@
         "vi": "4 trợ lý và 3 quy trình làm nội dung: từ một ý tưởng ra bài đăng hoàn chỉnh, bẻ bài dài thành chuỗi post, và lên lịch nội dung một tháng. Có bước tìm góc tiếp cận trước khi viết, và bước biên tập cắt chữ thừa sau khi viết.",
         "en": "4 agents and 3 workflows for content: turn one idea into a finished post, split a long piece into a post series, and plan a month of content. Angle-finding before writing, editing after."
       },
-      "version": "1.0.1",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -2007,8 +2016,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-09-05",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.noi-dung-social",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.content-social",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -2024,13 +2033,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-noi-dung-social-1.0.1.zip",
-        "sha256": "9ce432c6dcad75919b9c2b0f95899390164d4ef3557eb617efcf3022b6e2954e",
-        "size": 9100
-      }
+        "url": "dist/thansa-content-social-1.1.0.zip",
+        "sha256": "13aa6e115d10edc085b61d8488185c020b0282a26d688364acd677210b41c61d",
+        "size": 9112
+      },
+      "replaces": [
+        "thansa.noi-dung-social"
+      ]
     },
     {
-      "id": "thansa.email-pheu",
+      "id": "thansa.email-funnel",
       "kind": "workflow",
       "name": {
         "vi": "Email & phễu",
@@ -2040,7 +2052,7 @@
         "vi": "3 trợ lý và 3 quy trình cho email marketing: chuỗi email nuôi dưỡng sau khi khách tải tài liệu miễn phí, chuỗi kích hoạt lại danh sách đã nguội, và chẩn đoán phễu đang rò ở khâu nào. Viết chuỗi mà không lộ hết nội dung sản phẩm trả phí.",
         "en": "3 agents and 3 workflows for email marketing: a nurture sequence after a lead magnet, a re-engagement sequence for a cold list, and a funnel leak diagnosis."
       },
-      "version": "1.0.1",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -2050,8 +2062,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-09-05",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.email-pheu",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.email-funnel",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -2066,13 +2078,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-email-pheu-1.0.1.zip",
-        "sha256": "5a8fcf38d3f2c3caba1eade98f7ede2c526b89afd0bd4f6d10f766707e73ae8b",
-        "size": 7878
-      }
+        "url": "dist/thansa-email-funnel-1.1.0.zip",
+        "sha256": "1d96716f663533e3f9980f6a95b21812193954ddddb7615b5b4f55f9009b75d3",
+        "size": 7889
+      },
+      "replaces": [
+        "thansa.email-pheu"
+      ]
     },
     {
-      "id": "thansa.san-pham-ban-hang",
+      "id": "thansa.digital-products",
       "kind": "workflow",
       "name": {
         "vi": "Sản phẩm số & bán hàng",
@@ -2082,7 +2097,7 @@
         "vi": "4 trợ lý và 3 quy trình cho sản phẩm số: từ kỹ năng sẵn có ra ý tưởng sản phẩm bán được, dựng trang bán hàng từ hồ sơ khách, và chuỗi chăm khách sau mua để đổi lấy lời chứng thực. Mọi lời hứa bán hàng đều bị soát lại xem sản phẩm có giao nổi không.",
         "en": "4 agents and 3 workflows for digital products: turn existing skills into a sellable product, build a sales page from a customer profile, and run a post-purchase sequence that earns testimonials."
       },
-      "version": "1.0.1",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -2093,8 +2108,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-09-05",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.san-pham-ban-hang",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.digital-products",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -2110,13 +2125,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-san-pham-ban-hang-1.0.1.zip",
-        "sha256": "4655fcf768c48ac441aed294ed65fda27d5044a26ba9455499bb0f3eb0442c6f",
-        "size": 9413
-      }
+        "url": "dist/thansa-digital-products-1.1.0.zip",
+        "sha256": "c98430558d406af744aedf2eb5a4e0180240d9d2a1f1df5687d340196371cb88",
+        "size": 9435
+      },
+      "replaces": [
+        "thansa.san-pham-ban-hang"
+      ]
     },
     {
-      "id": "thansa.tro-ly-hang-ngay",
+      "id": "thansa.everyday-assistants",
       "kind": "agent",
       "name": {
         "vi": "Trợ lý hàng ngày",
@@ -2126,7 +2144,7 @@
         "vi": "3 trợ lý dùng mỗi ngày, không cần quy trình đi kèm: một thư ký dọn hộp thư và sắp việc trong ngày, một người tóm tắt tài liệu dài thành quyết định và việc cần làm, một người phản biện soi lỗ hổng trong kế hoạch trước khi bạn bắt tay vào làm.",
         "en": "3 everyday agents that work standalone: a secretary who triages the inbox and orders the day, a summariser who turns long documents into decisions and actions, and a devil's advocate who finds the holes in a plan before you commit to it."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -2137,8 +2155,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-09-05",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.tro-ly-hang-ngay",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.everyday-assistants",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -2148,13 +2166,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-tro-ly-hang-ngay-1.0.0.zip",
-        "sha256": "60a4817ffc6504d753e8f5e7c38702ee7156c92a69f46bb67a268691d018812b",
-        "size": 5285
-      }
+        "url": "dist/thansa-everyday-assistants-1.1.0.zip",
+        "sha256": "f09b38b8aeae0795e466962962dd06c7012690afe14b53a658d5b5babbfb9420",
+        "size": 5300
+      },
+      "replaces": [
+        "thansa.tro-ly-hang-ngay"
+      ]
     },
     {
-      "id": "thansa.tro-ly-nghien-cuu",
+      "id": "thansa.research-assistants",
       "kind": "agent",
       "name": {
         "vi": "Trợ lý nghiên cứu & ngôn ngữ",
@@ -2164,7 +2185,7 @@
         "vi": "3 trợ lý cho việc học và việc viết đa ngôn ngữ: một người nghiên cứu trả lời có trích dẫn rồi nạp vào Second Brain, một người dịch và bản địa hoá nội dung marketing Việt-Anh giữ nguyên sức bán, một người bóc khái niệm khó thành thứ hiểu được rồi mới dùng.",
         "en": "3 agents for learning and multilingual writing: a researcher who answers with citations and files findings into the Second Brain, a translator who localises marketing copy between Vietnamese and English without losing its selling power, and an explainer who unpacks a hard concept before you rely on it."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -2175,8 +2196,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-09-05",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.tro-ly-nghien-cuu",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.research-assistants",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -2186,10 +2207,13 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-tro-ly-nghien-cuu-1.0.0.zip",
-        "sha256": "690817ada1ee8459894a9f8348e8bcee0881018859f557ec146c62835426be51",
-        "size": 5317
-      }
+        "url": "dist/thansa-research-assistants-1.1.0.zip",
+        "sha256": "c00d7db65f97d70232e9d7f424a2160bb32fe8959d020ae0179c20802fb82cf0",
+        "size": 5339
+      },
+      "replaces": [
+        "thansa.tro-ly-nghien-cuu"
+      ]
     },
     {
       "id": "thansa.tts-dropship",
@@ -2225,17 +2249,17 @@
       }
     },
     {
-      "id": "thansa.thansa-trong-chatgpt",
+      "id": "thansa.gate",
       "kind": "tool",
       "name": {
-        "vi": "Thansa trong ChatGPT",
-        "en": "Thansa in ChatGPT"
+        "vi": "Thansa Gate",
+        "en": "Thansa Gate"
       },
       "description": {
-        "vi": "Chat trên chatgpt.com bằng gói ChatGPT của bạn, và ChatGPT tự gọi công cụ của Thansa: số liệu, brain, nhắc lịch, Zalo. Chọn mức quyền, ngắt kết nối bất cứ lúc nào. Cần Thansa 0.64.26 trở lên, mật khẩu quản trị và tên miền https.",
-        "en": "Chat on chatgpt.com with your own ChatGPT plan while ChatGPT calls Thansa's tools: numbers, brain, reminders, Zalo. Pick the permission level, disconnect any time. Needs Thansa 0.64.26 or newer, an admin password and an https domain."
+        "vi": "Cổng cho ChatGPT, Claude và AI khác làm việc cùng Thansa. AI đó đọc hội thoại của Thansa, tư vấn cho bạn, và khi bạn đồng ý thì nhắn thẳng vào khung chat để Thansa làm tiếp. Bạn xem được tiến độ, Thansa nhớ lại cho lần sau. Cần Thansa 0.440.0 trở lên, mật khẩu quản trị và tên miền https.",
+        "en": "A gate for ChatGPT, Claude and other AIs to work with Thansa. The AI reads your Thansa chats, advises you, and once you agree posts straight into the chat so Thansa carries on. You watch the progress, Thansa remembers it next time. Needs Thansa 0.440.0 or newer, an admin password and an https domain."
       },
-      "version": "1.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Thansa"
       },
@@ -2246,14 +2270,17 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-09-24",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.thansa-trong-chatgpt",
-      "icon": "packs/thansa.thansa-trong-chatgpt/assets/thansa-trong-chatgpt.png",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.gate",
+      "icon": "packs/thansa.gate/assets/thansa-gate.png",
       "download": {
-        "url": "dist/thansa-thansa-trong-chatgpt-1.0.0.zip",
-        "sha256": "3dbb67f502a501e05b90b288c83c7650a07bfef8cd0e974797e65613b7704ed8",
-        "size": 43797
-      }
+        "url": "dist/thansa-gate-2.1.0.zip",
+        "sha256": "f4d3fb32f5f65d2fb271368631713328c6f7a15006b83c3a9bb2fbeefa35a43d",
+        "size": 28485
+      },
+      "replaces": [
+        "thansa.thansa-trong-chatgpt"
+      ]
     },
     {
       "id": "thansa.github",
@@ -2476,7 +2503,7 @@
       }
     },
     {
-      "id": "thansa.ecc-kinh-doanh",
+      "id": "thansa.ecc-business",
       "kind": "skill",
       "name": {
         "vi": "ECC: Kinh doanh & chiến lược",
@@ -2486,7 +2513,7 @@
         "vi": "12 skill kinh doanh của ECC: nghiên cứu thị trường, quy trình phân tích đối thủ 3 bước, thẩm định sản phẩm trước khi làm, tài liệu và thư gọi vốn, tìm khách tiềm năng, hội đồng 4 góc nhìn để ra quyết định, dự báo tồn kho, xử lý đổi trả.",
         "en": "12 business skills from ECC: market research, a 3-step competitor analysis pipeline, product validation, investor materials and outreach, lead intelligence, a 4-voice decision council, demand planning, returns handling."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Affaan Mustafa",
         "url": "https://github.com/affaan-m/ECC"
@@ -2498,8 +2525,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-18",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-kinh-doanh",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-business",
       "source": "https://github.com/affaan-m/ECC",
       "license": "MIT",
       "provides": {
@@ -2519,13 +2546,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-ecc-kinh-doanh-1.0.0.zip",
-        "sha256": "c3931012033d585b0c6fd22307f1b4ebb28b3db34ffa79f4d5ae9c2cf69def75",
-        "size": 62880
-      }
+        "url": "dist/thansa-ecc-business-1.1.0.zip",
+        "sha256": "d3388ec53373210c76780d24176754f2a911cd669f542f0290a8d4d03e899918",
+        "size": 62891
+      },
+      "replaces": [
+        "thansa.ecc-kinh-doanh"
+      ]
     },
     {
-      "id": "thansa.ecc-nghien-cuu",
+      "id": "thansa.ecc-research",
       "kind": "skill",
       "name": {
         "vi": "ECC: Nghiên cứu & thu thập dữ liệu",
@@ -2535,7 +2565,7 @@
         "vi": "6 skill nghiên cứu của ECC: báo cáo nghiên cứu sâu có trích dẫn, tìm kiếm Exa, tổng quan tài liệu khoa học, chấm chất lượng bài nghiên cứu, dựng agent cào dữ liệu công khai theo lịch, bóc tách văn bản có cấu trúc rẻ mà chuẩn.",
         "en": "6 research skills from ECC: cited deep-research reports, Exa search, literature reviews, scholarly evaluation, a scheduled public-data scraping agent, and cheap accurate structured-text extraction."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Affaan Mustafa",
         "url": "https://github.com/affaan-m/ECC"
@@ -2547,8 +2577,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-18",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-nghien-cuu",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-research",
       "source": "https://github.com/affaan-m/ECC",
       "license": "MIT",
       "provides": {
@@ -2562,10 +2592,13 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-ecc-nghien-cuu-1.0.0.zip",
-        "sha256": "a0d1d72c9c54c0592b350604be92aa8bf3cebd30927ce288dd72a5e933d5e45d",
-        "size": 27171
-      }
+        "url": "dist/thansa-ecc-research-1.1.0.zip",
+        "sha256": "d6b34bb7c677536253c6b69ba1a3e9b5626f06cce337f1c3455b2db751b3d892",
+        "size": 27176
+      },
+      "replaces": [
+        "thansa.ecc-nghien-cuu"
+      ]
     },
     {
       "id": "thansa.ecc-ai-agents",
@@ -2617,7 +2650,7 @@
       }
     },
     {
-      "id": "thansa.ecc-code-chat-luong",
+      "id": "thansa.ecc-code-quality",
       "kind": "skill",
       "name": {
         "vi": "ECC: Code chất lượng",
@@ -2627,7 +2660,7 @@
         "vi": "9 skill giữ chất lượng code của ECC: chuẩn viết code chung, xử lý lỗi, soát bảo mật, vòng kiểm chứng 6 bước trước khi mở PR, TDD, soát sẵn sàng chạy thật, tìm thư viện có sẵn trước khi tự viết, làm quen codebase lạ, quy trình git.",
         "en": "9 code-quality skills from ECC: coding standards, error handling, security review, a 6-phase verification loop before a PR, TDD, production readiness audits, search before building, codebase onboarding, git workflow."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Affaan Mustafa",
         "url": "https://github.com/affaan-m/ECC"
@@ -2639,8 +2672,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-18",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-code-chat-luong",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-code-quality",
       "source": "https://github.com/affaan-m/ECC",
       "license": "MIT",
       "provides": {
@@ -2657,10 +2690,13 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-ecc-code-chat-luong-1.0.0.zip",
-        "sha256": "079a844785bbdf4e227c3c6ab6edd53cc63f11b95ff2c7c7368798636dc9c018",
-        "size": 50567
-      }
+        "url": "dist/thansa-ecc-code-quality-1.1.0.zip",
+        "sha256": "98db2867b1862ce3d5befbb97470159e5738c6abb03ce78cd7099d8e182c4729",
+        "size": 50576
+      },
+      "replaces": [
+        "thansa.ecc-code-chat-luong"
+      ]
     },
     {
       "id": "thansa.ecc-backend-web",
@@ -2711,7 +2747,7 @@
       }
     },
     {
-      "id": "thansa.ecc-tro-ly-kinh-doanh",
+      "id": "thansa.ecc-business-agents",
       "kind": "agent",
       "name": {
         "vi": "ECC: Trợ lý marketing & điều hành",
@@ -2721,7 +2757,7 @@
         "vi": "4 trợ lý của ECC: chiến lược gia marketing lo trọn chiến dịch từ định vị tới bản copy, chuyên gia SEO soát kỹ thuật và nội dung, chánh văn phòng phân loại tin nhắn đa kênh rồi soạn trả lời, và người chấm chất lượng đầu ra theo 5 tiêu chí.",
         "en": "4 ECC agents: a marketing strategist who runs a campaign from positioning to copy, an SEO specialist, a chief of staff who triages multi-channel messages and drafts replies, and an evaluator who scores output on 5 axes."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Affaan Mustafa",
         "url": "https://github.com/affaan-m/ECC"
@@ -2733,8 +2769,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-18",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-tro-ly-kinh-doanh",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-business-agents",
       "source": "https://github.com/affaan-m/ECC",
       "license": "MIT",
       "provides": {
@@ -2746,13 +2782,16 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-ecc-tro-ly-kinh-doanh-1.0.0.zip",
-        "sha256": "05351991dc2e65e2703995608e7b90e0a5928f8b7ec841b728609fe9f317dcdd",
-        "size": 17451
-      }
+        "url": "dist/thansa-ecc-business-agents-1.1.0.zip",
+        "sha256": "70430ddf63a70aaa4e80ce7b8316bf827c5d8668c8b6c04a852c4ae5b807d390",
+        "size": 17462
+      },
+      "replaces": [
+        "thansa.ecc-tro-ly-kinh-doanh"
+      ]
     },
     {
-      "id": "thansa.ecc-doi-lap-trinh",
+      "id": "thansa.ecc-engineering-team",
       "kind": "agent",
       "name": {
         "vi": "ECC: Đội lập trình",
@@ -2762,7 +2801,7 @@
         "vi": "17 trợ lý lập trình của ECC: lập kế hoạch, kiến trúc, review code, soát bảo mật, sửa lỗi build, đơn giản hoá code, săn lỗi bị nuốt, tối ưu hiệu năng, review database, Python, TypeScript, React, TDD, dọn code chết, cập nhật tài liệu, test E2E, tra tài liệu thư viện.",
         "en": "17 ECC engineering agents: planner, architect, code reviewer, security reviewer, build fixer, code simplifier, silent-failure hunter, performance, database, Python, TypeScript and React reviewers, TDD guide, dead-code cleaner, doc updater, E2E runner, docs lookup."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Affaan Mustafa",
         "url": "https://github.com/affaan-m/ECC"
@@ -2774,8 +2813,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-18",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-doi-lap-trinh",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.ecc-engineering-team",
       "source": "https://github.com/affaan-m/ECC",
       "license": "MIT",
       "provides": {
@@ -2800,10 +2839,13 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-ecc-doi-lap-trinh-1.0.0.zip",
-        "sha256": "8588f6804abe22d8ffc1f20c718c75c5d165f11149beb81497c60c3e387bc8c1",
-        "size": 66290
-      }
+        "url": "dist/thansa-ecc-engineering-team-1.1.0.zip",
+        "sha256": "59b2c581e2cd1b7d644f885bc7d3925456d363e0a1ecec72991e3ad402c0a5d4",
+        "size": 66307
+      },
+      "replaces": [
+        "thansa.ecc-doi-lap-trinh"
+      ]
     },
     {
       "id": "thansa.founder",
@@ -2949,8 +2991,8 @@
       },
       "download": {
         "url": "dist/thansa-remotion-1.0.1.zip",
-        "sha256": "2f539411de5c76ca19789f51a15d2f0a0bc67bb54f303eadf79419515d598cca",
-        "size": 880750
+        "sha256": "1f43042c216e68ac53c3b3b9f4317abe13babd261b463860c53a795bfb3dbe85",
+        "size": 877126
       }
     },
     {
@@ -3579,8 +3621,8 @@
       },
       "download": {
         "url": "dist/thansa-rea-1.0.5.zip",
-        "sha256": "4774d042e09ad92592c6abbdd05ba65554371e54dd7b3d49902d7bf757306f08",
-        "size": 64715
+        "sha256": "54c93234fe4b3aeba5e2428811b7b87b5c5e1e76f15e8f4e527a291008dbf0e3",
+        "size": 64667
       }
     },
     {
@@ -3859,7 +3901,7 @@
       }
     },
     {
-      "id": "thansa.linh-hon-thansa-vu",
+      "id": "thansa.thansa-vu-soul",
       "kind": "agent",
       "name": {
         "vi": "Linh Hồn Thansa Vũ",
@@ -3869,7 +3911,7 @@
         "vi": "Vũ là cộng sự chăm sóc khách hàng dùng được cho mọi ngành: nhắn tin ngắn gọn như người thật, hài hước nhẹ nhàng mà không lố, giữ đúng mạch chuyện, không bao giờ bịa giá hay khuyến mãi. Bạn điền hồ sơ cửa hàng, thêm sản phẩm, gắn vào Chatbot Zalo hay Telegram là Vũ vào ca trực.",
         "en": "Vu is a customer-care partner for any kind of business: short, human-sounding replies, gentle humour that never overdoes it, follows the thread of the chat, and never makes up a price or a promotion. Fill in your shop profile, add your products, attach it to a Zalo or Telegram chatbot and Vu starts the shift."
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Nguyễn Minh Quý"
       },
@@ -3880,8 +3922,8 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-29",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.linh-hon-thansa-vu",
+      "updated": "2026-11-02",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.thansa-vu-soul",
       "license": "MIT",
       "provides": {
         "agents": [
@@ -3889,10 +3931,13 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-linh-hon-thansa-vu-1.0.0.zip",
-        "sha256": "c29fa049e056198d4fd2a18d01e908c3f52149d693dcc161739df0b3ef26cac8",
-        "size": 8273
-      }
+        "url": "dist/thansa-thansa-vu-soul-1.1.0.zip",
+        "sha256": "e77cf595ae5a100cab90393295057cefa3f37dcc94c86f53564eb87240df4dae",
+        "size": 8286
+      },
+      "replaces": [
+        "thansa.linh-hon-thansa-vu"
+      ]
     },
     {
       "id": "thansa.agency-agents",
