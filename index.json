@@ -1,7 +1,7 @@
 {
   "format": "thansa-pack-index",
   "format_version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-06",
   "store": {
     "name": "Kho cài đặt Thansa",
     "url": "https://github.com/xahoapro/thansa-store"
@@ -733,6 +733,39 @@
         "url": "dist/thansa-gmail-1.0.0.zip",
         "sha256": "f32ee67682fcbe67f034e17264725ebc3fcabaebdea58b835fb42ecfee97ac14",
         "size": 16667
+      }
+    },
+    {
+      "id": "thansa.resend",
+      "kind": "connector",
+      "name": {
+        "vi": "Resend"
+      },
+      "description": {
+        "vi": "Gửi và quản lý email qua MCP chính chủ của Resend: email giao dịch, broadcast, mẫu email, danh bạ và phân khúc, tên miền gửi, thống kê và nhật ký. Chạy trên máy chủ của Resend, chỉ cần dán API key. Mặc định Chỉ đọc."
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Thansa"
+      },
+      "category": "marketing",
+      "category_label": {
+        "vi": "Marketing"
+      },
+      "tier": "data",
+      "verified": true,
+      "updated": "2026-11-03",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.resend",
+      "icon": "packs/thansa.resend/assets/resend.png",
+      "provides": {
+        "connectors": [
+          "resend"
+        ]
+      },
+      "download": {
+        "url": "dist/thansa-resend-1.0.0.zip",
+        "sha256": "37485340c231d64d0ac7a27381406eb87c9795c9801c1c6c847b5a21db63dd32",
+        "size": 14432
       }
     },
     {
@@ -2291,7 +2324,7 @@
       "description": {
         "vi": "Làm việc với code trên GitHub qua MCP chính chủ: đọc và sửa file, tạo nhánh, đẩy commit, mở và trộn Pull Request, issue, review, xem và chạy GitHub Actions, đọc log CI, cảnh báo bảo mật. Bật đủ mọi bộ công cụ, dán Personal Access Token là xong."
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Thansa"
       },
@@ -2301,7 +2334,7 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-13",
+      "updated": "2026-11-04",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.github",
       "icon": "packs/thansa.github/assets/github.png",
       "provides": {
@@ -2310,9 +2343,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-github-1.0.2.zip",
-        "sha256": "fa244ac50fbe6a9e7451fbc25780621e831e22fd048e29cb6f583ddd66a0503b",
-        "size": 9509
+        "url": "dist/thansa-github-1.0.3.zip",
+        "sha256": "9b8289154206707539ec979067c3cd54783a2b5b225c909ecad22a70ec05678e",
+        "size": 9532
       }
     },
     {
@@ -2357,6 +2390,39 @@
       "description": {
         "vi": "Toàn bộ API Cloudflare ngay trong chat qua MCP chính chủ: DNS, Workers, Pages, KV, R2, D1, tường lửa, SSL, cache, thống kê lưu lượng, Zero Trust. Dán API token là xong, quyền của token quyết định Thansa được làm gì."
       },
+      "version": "1.0.1",
+      "author": {
+        "name": "Thansa"
+      },
+      "category": "lap-trinh",
+      "category_label": {
+        "vi": "Lập trình"
+      },
+      "tier": "data",
+      "verified": true,
+      "updated": "2026-11-05",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.cloudflare",
+      "icon": "packs/thansa.cloudflare/assets/cloudflare.jpg",
+      "provides": {
+        "connectors": [
+          "cloudflare"
+        ]
+      },
+      "download": {
+        "url": "dist/thansa-cloudflare-1.0.1.zip",
+        "sha256": "0fa3d500bd88a2a89cf54974f53d13e21f68a79b5312d5fdf72fd7b8329cb486",
+        "size": 5307
+      }
+    },
+    {
+      "id": "thansa.cloudflare-oauth",
+      "kind": "connector",
+      "name": {
+        "vi": "Cloudflare (đăng nhập web)"
+      },
+      "description": {
+        "vi": "Cùng MCP chính chủ của Cloudflare nhưng không cần tạo API token: bấm Kết nối, đăng nhập Cloudflare rồi tick quyền muốn cấp ngay trên trang của Cloudflare."
+      },
       "version": "1.0.0",
       "author": {
         "name": "Thansa"
@@ -2367,18 +2433,18 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-02",
-      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.cloudflare",
-      "icon": "packs/thansa.cloudflare/assets/cloudflare.jpg",
+      "updated": "2026-11-05",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.cloudflare-oauth",
+      "icon": "packs/thansa.cloudflare-oauth/assets/cloudflare.jpg",
       "provides": {
         "connectors": [
-          "cloudflare"
+          "cloudflare-oauth"
         ]
       },
       "download": {
-        "url": "dist/thansa-cloudflare-1.0.0.zip",
-        "sha256": "6b36a4975eee717f5ac545d4c34ce6c9e7bcc5c154dffdd7226c1f57822ea66f",
-        "size": 5260
+        "url": "dist/thansa-cloudflare-oauth-1.0.0.zip",
+        "sha256": "7cf241829d52b2f9c25b2414b7cb0f04e2675863c67b9c9da779aa3526a2ea68",
+        "size": 4733
       }
     },
     {
@@ -2388,9 +2454,9 @@
         "vi": "Cloudflare Deploy (Wrangler)"
       },
       "description": {
-        "vi": "Deploy Worker và trang web tĩnh lên Cloudflare bằng Wrangler ngay trong chat, bộ não nào cũng dùng được. Dùng lại API token của gói Cloudflare, không phải dán lần hai. Deploy thật chỉ chạy khi kết nối Cloudflare ở mức Toàn quyền. Cần Node.js 20+ trên máy chạy Thansa."
+        "vi": "Deploy Worker và trang web tĩnh lên Cloudflare bằng Wrangler ngay trong chat, bộ não nào cũng dùng được. Dùng lại API token của kết nối Cloudflare (cách Dán API token), không phải dán lần hai. Deploy thật chỉ chạy khi kết nối Cloudflare ở mức Toàn quyền. Cần Node.js 20+ trên máy chạy Thansa."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Thansa"
       },
@@ -2400,7 +2466,7 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-10-02",
+      "updated": "2026-11-05",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.cloudflare-deploy",
       "icon": "packs/thansa.cloudflare-deploy/assets/cloudflare-deploy.jpg",
       "provides": {
@@ -2412,9 +2478,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-cloudflare-deploy-1.0.0.zip",
-        "sha256": "2c1d4467293b62c371a5bbb309e2ae9e9f82c75a5aa085e443627fd49841a83b",
-        "size": 13309
+        "url": "dist/thansa-cloudflare-deploy-1.0.1.zip",
+        "sha256": "c533554cb58ba8acb38ef31724b325055826855e2bb0464169db81fa168ded92",
+        "size": 13387
       }
     },
     {
@@ -2950,7 +3016,7 @@
         "vi": "Bộ skill chính chủ của Remotion (remotion.dev): tạo dự án video bằng React, hoạt hình, chữ và hiệu ứng, phụ đề, bản đồ, xem trước và xuất video. Theo repo gốc, cập nhật mỗi khi Remotion sửa skill.",
         "en": "Remotion's official skills (remotion.dev): create React video projects, animation, type and effects, captions, maps, preview and render. Follows the source repo and updates whenever Remotion changes its skills."
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Remotion",
         "url": "https://github.com/remotion-dev/skills"
@@ -2962,15 +3028,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-11-02",
+      "updated": "2026-11-05",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.remotion",
       "source": "https://github.com/remotion-dev/skills",
       "license": "Remotion License",
       "upstream": {
         "repo": "remotion-dev/skills",
         "ref": "main",
-        "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
-        "synced": "2026-11-02"
+        "commit": "a2824c67f8b4585c294a8101db9f9f0ad3c643f8",
+        "synced": "2026-11-05"
       },
       "provides": {
         "skills": [
@@ -2990,9 +3056,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-remotion-1.0.1.zip",
-        "sha256": "1f43042c216e68ac53c3b3b9f4317abe13babd261b463860c53a795bfb3dbe85",
-        "size": 877126
+        "url": "dist/thansa-remotion-1.0.2.zip",
+        "sha256": "0b077290316ac0d2cc154450783bec0ac864609383e6e7f6b2e534b1df6cc8bf",
+        "size": 877133
       }
     },
     {
@@ -3278,7 +3344,7 @@
         "vi": "12 skill của GitNexus: dựng đồ thị phụ thuộc của cả codebase rồi dùng nó để khám phá mã, gỡ lỗi, đánh giá tác động trước khi sửa, refactor, review PR. Cần chạy npx gitnexus analyze. Giấy phép chỉ cho dùng phi thương mại.",
         "en": "12 GitNexus skills: index the whole codebase into a dependency graph and use it to explore code, debug, check impact before an edit, refactor and review PRs. Needs npx gitnexus analyze. Licensed for noncommercial use only."
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Abhigyan Patwari",
         "url": "https://github.com/abhigyanpatwari/GitNexus"
@@ -3290,15 +3356,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-11-01",
+      "updated": "2026-11-05",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.gitnexus",
       "source": "https://github.com/abhigyanpatwari/GitNexus",
       "license": "PolyForm-Noncommercial-1.0.0",
       "upstream": {
         "repo": "abhigyanpatwari/GitNexus",
         "ref": "main",
-        "commit": "21298f24234e538dc0d0b5369c410e76da77e70e",
-        "synced": "2026-11-01"
+        "commit": "fb85794c621f89217ceb7fc9e708459e4f21ba77",
+        "synced": "2026-11-05"
       },
       "provides": {
         "skills": [
@@ -3317,9 +3383,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-gitnexus-1.0.1.zip",
-        "sha256": "d0cde473d0599412f7fc8d4ec1082cea44c6aba7838d94e4cafd31334e1e9608",
-        "size": 149688
+        "url": "dist/thansa-gitnexus-1.0.2.zip",
+        "sha256": "ea8228917fc12daf3dcba43e9b2f2832fc73fe3db568635e69a220ce67aaa0e3",
+        "size": 149759
       }
     },
     {
@@ -3592,7 +3658,7 @@
         "vi": "Skill của REA (Reverse Engineer Anything), repo AI đang nổi nhất GitHub: phân tích app Electron/JavaScript, tệp chạy, firmware và trang web khi không có mã nguồn, so sánh phiên bản, dịch ngược. Cần cài công cụ rea (npm rea-agents).",
         "en": "The REA (Reverse Engineer Anything) skill, GitHub's top trending AI repo: analyse Electron/JavaScript apps, binaries, firmware and web apps without their source, compare versions, decompile. Needs the rea tool (npm rea-agents)."
       },
-      "version": "1.0.5",
+      "version": "1.0.7",
       "author": {
         "name": "morluto",
         "url": "https://github.com/morluto/rea"
@@ -3604,15 +3670,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-11-02",
+      "updated": "2026-11-06",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.rea",
       "source": "https://github.com/morluto/rea",
       "license": "MIT",
       "upstream": {
         "repo": "morluto/rea",
         "ref": "main",
-        "commit": "93b8b82db70279e40f484114cff9dc1958dc14ee",
-        "synced": "2026-11-02"
+        "commit": "abdbaa544ad3e63444a58bebd1708cc51b136a8b",
+        "synced": "2026-11-06"
       },
       "provides": {
         "skills": [
@@ -3620,9 +3686,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-rea-1.0.5.zip",
-        "sha256": "54c93234fe4b3aeba5e2428811b7b87b5c5e1e76f15e8f4e527a291008dbf0e3",
-        "size": 64667
+        "url": "dist/thansa-rea-1.0.7.zip",
+        "sha256": "00f8947f076d573125f2741fd9496512d6ea4f28c33193b9c2093050c9d290b8",
+        "size": 67505
       }
     },
     {
@@ -3950,7 +4016,7 @@
         "vi": "Trọn bộ agency-agents, hơn 280 agent chuyên gia theo 18 nhóm: lập trình, thiết kế, marketing, quảng cáo, bán hàng, tài chính, bảo mật, làm game, bản đồ GIS, chuyên gia ngành. Mỗi agent có tính cách, quy trình và đầu ra rõ ràng. Muốn cài lẻ từng agent thì tìm ở tab Agent.",
         "en": "The full agency-agents set, 280+ expert agents in 18 divisions: engineering, design, marketing, paid media, sales, finance, security, game development, GIS, industry specialists. Each has a personality, process and clear deliverables. To install one at a time, see the Agents tab."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "msitarzewski",
         "url": "https://github.com/msitarzewski/agency-agents"
@@ -3962,15 +4028,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-29",
+      "updated": "2026-11-06",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.agency-agents",
       "source": "https://github.com/msitarzewski/agency-agents",
       "license": "MIT",
       "upstream": {
         "repo": "msitarzewski/agency-agents",
         "ref": "main",
-        "commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
-        "synced": "2026-10-29"
+        "commit": "b859c515d813efcfc4755d3471dd9e7686c7706d",
+        "synced": "2026-11-06"
       },
       "provides": {
         "agents": [
@@ -4260,9 +4326,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-agency-agents-1.0.0.zip",
-        "sha256": "ffe6e11b5d0402fb6ed08c8fde9c30cdd0d0bf0da0a4c04471470c25a226d941",
-        "size": 1764511
+        "url": "dist/thansa-agency-agents-1.0.1.zip",
+        "sha256": "7e5c2ce6a7094c28c0a9580c65715638ad5539fb4c4d6220453609d9eebc3ac3",
+        "size": 1765554
       }
     },
     {
@@ -9346,7 +9412,7 @@
         "vi": "Vận hành đồ thị danh tính dùng chung cho nhiều AI agent, để agent nào hỏi \"thực thể này là ai\" cũng nhận cùng một câu trả lời, kể cả khi ghi đồng thời.",
         "en": "Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this entity?\" - deterministically, even under concurrent writes."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "msitarzewski",
         "url": "https://github.com/msitarzewski/agency-agents"
@@ -9358,7 +9424,7 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-29",
+      "updated": "2026-11-06",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.agency.identity-graph-operator",
       "source": "https://github.com/msitarzewski/agency-agents/blob/main/specialized/identity-graph-operator.md",
       "license": "MIT",
@@ -9369,9 +9435,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-agency-identity-graph-operator-1.0.0.zip",
-        "sha256": "8f9bdfa89bc5e9fa4ab46e9ae6c4dd28ec394012c1bbe464ad816a40c08bbeb8",
-        "size": 8449
+        "url": "dist/thansa-agency-identity-graph-operator-1.0.1.zip",
+        "sha256": "a5c6c1dc0c13f5bba9d3c397e064623948bba9170e80a295f2fe2d71a8b0fece",
+        "size": 8684
       }
     },
     {
@@ -13285,7 +13351,7 @@
         "vi": "Bảo mật phòng thủ: quét mọi lần nộp code tìm khoá bí mật và dữ liệu nhạy cảm trước tiên, rồi triển khai hoặc soát các lớp kiểm soát bảo mật theo chuẩn của tổ chức.",
         "en": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard - covering authentication, authorization, tokens, cookies, HTTP..."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "msitarzewski",
         "url": "https://github.com/msitarzewski/agency-agents"
@@ -13297,7 +13363,7 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-29",
+      "updated": "2026-11-06",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.agency.security-senior-secops",
       "source": "https://github.com/msitarzewski/agency-agents/blob/main/security/security-senior-secops.md",
       "license": "MIT",
@@ -13308,9 +13374,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-agency-security-senior-secops-1.0.0.zip",
-        "sha256": "7842d6a2cd728aa7d874f78dee53914f07d367ee80f6ba0a5f14938bc0087df1",
-        "size": 14649
+        "url": "dist/thansa-agency-security-senior-secops-1.0.1.zip",
+        "sha256": "facada78557895f68cd4f07d7088592ee31270e5dd9d858cc21555710274fffb",
+        "size": 14866
       }
     },
     {
@@ -14221,7 +14287,7 @@
         "vi": "Kế hoạch tài chính, quản lý ngân sách, phân tích hiệu quả kinh doanh. Giữ tài chính lành mạnh, tối ưu dòng tiền, đưa góc nhìn tài chính cho tăng trưởng.",
         "en": "Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "msitarzewski",
         "url": "https://github.com/msitarzewski/agency-agents"
@@ -14233,7 +14299,7 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-29",
+      "updated": "2026-11-06",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.agency.support-finance-tracker",
       "source": "https://github.com/msitarzewski/agency-agents/blob/main/support/support-finance-tracker.md",
       "license": "MIT",
@@ -14244,9 +14310,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-agency-support-finance-tracker-1.0.0.zip",
-        "sha256": "73bd010d7da28917fb375d4536b0fca3648f02fc282d769a64a5ff54643ecedb",
-        "size": 9012
+        "url": "dist/thansa-agency-support-finance-tracker-1.0.1.zip",
+        "sha256": "7dfa3a60857c8e9e415037515c1297b13a2e3164528a3a8bf6e3cc5eb5b1a7ef",
+        "size": 9281
       }
     },
     {
@@ -14767,7 +14833,7 @@
         "vi": "Phân tích, tối ưu và tự động hoá quy trình ở mọi bộ phận để năng suất và hiệu quả cao nhất.",
         "en": "Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency"
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "msitarzewski",
         "url": "https://github.com/msitarzewski/agency-agents"
@@ -14779,7 +14845,7 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-10-29",
+      "updated": "2026-11-06",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.agency.testing-workflow-optimizer",
       "source": "https://github.com/msitarzewski/agency-agents/blob/main/testing/testing-workflow-optimizer.md",
       "license": "MIT",
@@ -14790,9 +14856,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-agency-testing-workflow-optimizer-1.0.0.zip",
-        "sha256": "f96729ad79cab6e0c27c96f897160b9afd5d3273e690dcab8062f31e463a298c",
-        "size": 8688
+        "url": "dist/thansa-agency-testing-workflow-optimizer-1.0.1.zip",
+        "sha256": "677c2ba198e3c4d597bb5fc1338ad9573a9352d5f8f5a7d5d1cda5aa31d99884",
+        "size": 9011
       }
     },
     {
@@ -15300,6 +15366,73 @@
         "url": "dist/thansa-agency-zk-steward-1.0.0.zip",
         "sha256": "2ca6bd08b55c402e4e20b5988677cf51ef4fda8bb325e4e272914284baf5c64e",
         "size": 7169
+      }
+    },
+    {
+      "id": "thansa.claude-seo",
+      "kind": "skill",
+      "name": {
+        "vi": "Claude SEO: Kiểm tra và tối ưu SEO",
+        "en": "Claude SEO: Audit and optimise SEO"
+      },
+      "description": {
+        "vi": "24 skill SEO của Claude SEO: kiểm tra cả website, phân tích từng trang, SEO kỹ thuật và Core Web Vitals, schema, sitemap, nội dung E-E-A-T, SEO địa phương, thương mại điện tử, backlink, SEO cho AI (GEO). Cần Python 3.11 trở lên.",
+        "en": "24 Claude SEO skills: full site audits, single-page analysis, technical SEO and Core Web Vitals, schema, sitemaps, E-E-A-T content, local SEO, ecommerce, backlinks and AI search (GEO). Needs Python 3.11 or newer."
+      },
+      "version": "1.0.2",
+      "author": {
+        "name": "AgriciDaniel",
+        "url": "https://github.com/AgriciDaniel/claude-seo"
+      },
+      "category": "marketing",
+      "category_label": {
+        "vi": "Marketing",
+        "en": "Marketing"
+      },
+      "tier": "code",
+      "verified": true,
+      "updated": "2026-11-06",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.claude-seo",
+      "source": "https://github.com/AgriciDaniel/claude-seo",
+      "license": "MIT",
+      "upstream": {
+        "repo": "AgriciDaniel/claude-seo",
+        "ref": "main",
+        "commit": "6be93f45064ffbadced572b5d5c95f55fd263af0",
+        "synced": "2026-11-06"
+      },
+      "provides": {
+        "skills": [
+          "seo",
+          "seo-agentic",
+          "seo-audit",
+          "seo-backlinks",
+          "seo-cluster",
+          "seo-competitor-pages",
+          "seo-content",
+          "seo-content-brief",
+          "seo-drift",
+          "seo-ecommerce",
+          "seo-flow",
+          "seo-geo",
+          "seo-google",
+          "seo-hreflang",
+          "seo-images",
+          "seo-local",
+          "seo-maps",
+          "seo-page",
+          "seo-plan",
+          "seo-programmatic",
+          "seo-schema",
+          "seo-sitemap",
+          "seo-sxo",
+          "seo-technical"
+        ]
+      },
+      "download": {
+        "url": "dist/thansa-claude-seo-1.0.2.zip",
+        "sha256": "43cbe2cbdd26e1c8bfff926ed32c0d24603f7d1aaf14bacf2d7ed14419b6bdbd",
+        "size": 675219
       }
     }
   ]
