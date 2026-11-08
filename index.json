@@ -1,7 +1,7 @@
 {
   "format": "thansa-pack-index",
   "format_version": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-08",
   "store": {
     "name": "Kho cài đặt Thansa",
     "url": "https://github.com/xahoapro/thansa-store"
@@ -2494,7 +2494,7 @@
         "vi": "Đi kèm kết nối Zalo: gửi ảnh và file, tag đúng người trong nhóm, tạo ghi chú, đọc và sửa ghi chú ghim (giữ nguyên ghim), nhắc hẹn, poll, đọc ảnh người ta gửi trong nhóm (ChatGPT trên gói của bạn tả lại nội dung ảnh cho mọi bộ não), và kết bạn: tìm người theo số điện thoại hay tên bạn bè, xem lời mời chờ duyệt và đã gửi, gửi, nhận, từ chối, rút lại lời mời, và đổi tên khách bằng tên gợi nhớ. Cần Thansa 0.73.0 trở lên và đã quét QR Zalo ở trang Kết nối.",
         "en": "Goes with the Zalo connection: send images and files, tag the right people in a group, create notes, read and edit pinned notes (the pin stays), reminders and polls, read the images people post in a group (ChatGPT on your plan describes them for every brain), and handle friends: find people by phone or by a friend's name, see pending and sent requests, send, accept, reject and withdraw requests, and rename a contact with a nickname. Needs Thansa 0.73.0 or newer and Zalo scanned on the Connections page."
       },
-      "version": "1.5.0",
+      "version": "2.0.0",
       "author": {
         "name": "Thansa"
       },
@@ -2505,21 +2505,18 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-10-27",
+      "updated": "2026-11-08",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.zalo",
       "icon": "packs/thansa.zalo/assets/zalo.png",
       "provides": {
         "plugins": [
-          "zalo-image",
-          "zalo-group",
-          "zalo-read-images",
-          "zalo-friend"
+          "zalo-extras"
         ]
       },
       "download": {
-        "url": "dist/thansa-zalo-1.5.0.zip",
-        "sha256": "99ee15c20e97c73bd1deae7b806898c2e955a3fa1aa7e5b906d53d6f67c1767a",
-        "size": 42527
+        "url": "dist/thansa-zalo-2.0.0.zip",
+        "sha256": "cfd2b89c5ff9fda7861c741e211b6c2e582e4fbc47680a243a0306366747e47a",
+        "size": 42631
       }
     },
     {
@@ -3658,7 +3655,7 @@
         "vi": "Skill của REA (Reverse Engineer Anything), repo AI đang nổi nhất GitHub: phân tích app Electron/JavaScript, tệp chạy, firmware và trang web khi không có mã nguồn, so sánh phiên bản, dịch ngược. Cần cài công cụ rea (npm rea-agents).",
         "en": "The REA (Reverse Engineer Anything) skill, GitHub's top trending AI repo: analyse Electron/JavaScript apps, binaries, firmware and web apps without their source, compare versions, decompile. Needs the rea tool (npm rea-agents)."
       },
-      "version": "1.0.7",
+      "version": "1.0.9",
       "author": {
         "name": "morluto",
         "url": "https://github.com/morluto/rea"
@@ -3670,15 +3667,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.rea",
       "source": "https://github.com/morluto/rea",
       "license": "MIT",
       "upstream": {
         "repo": "morluto/rea",
         "ref": "main",
-        "commit": "abdbaa544ad3e63444a58bebd1708cc51b136a8b",
-        "synced": "2026-11-06"
+        "commit": "72d5e72e6d7b7997c4ecb11972fc405be8ec67d2",
+        "synced": "2026-11-08"
       },
       "provides": {
         "skills": [
@@ -3686,9 +3683,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-rea-1.0.7.zip",
-        "sha256": "00f8947f076d573125f2741fd9496512d6ea4f28c33193b9c2093050c9d290b8",
-        "size": 67505
+        "url": "dist/thansa-rea-1.0.9.zip",
+        "sha256": "a881b8d1ca30d69916b85fdf77fa546e1c6d9b82d0e04c01d972c703ea5d7ac6",
+        "size": 68619
       }
     },
     {
