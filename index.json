@@ -1,7 +1,7 @@
 {
   "format": "thansa-pack-index",
   "format_version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "store": {
     "name": "Kho cài đặt Thansa",
     "url": "https://github.com/xahoapro/thansa-store"
@@ -3083,7 +3083,7 @@
         "vi": "Bộ skill chính chủ của Remotion (remotion.dev): tạo dự án video bằng React, hoạt hình, chữ và hiệu ứng, phụ đề, bản đồ, xem trước và xuất video. Theo repo gốc, cập nhật mỗi khi Remotion sửa skill.",
         "en": "Remotion's official skills (remotion.dev): create React video projects, animation, type and effects, captions, maps, preview and render. Follows the source repo and updates whenever Remotion changes its skills."
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Remotion",
         "url": "https://github.com/remotion-dev/skills"
@@ -3095,15 +3095,15 @@
       },
       "tier": "data",
       "verified": true,
-      "updated": "2026-11-09",
+      "updated": "2026-11-11",
       "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.remotion",
       "source": "https://github.com/remotion-dev/skills",
       "license": "Remotion License",
       "upstream": {
         "repo": "remotion-dev/skills",
         "ref": "main",
-        "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
-        "synced": "2026-11-09"
+        "commit": "1fc074b74b95cfecf7b1e419132f2cfe23dafebe",
+        "synced": "2026-11-11"
       },
       "provides": {
         "skills": [
@@ -3123,9 +3123,9 @@
         ]
       },
       "download": {
-        "url": "dist/thansa-remotion-1.0.3.zip",
-        "sha256": "8a94bf2b0b01406ea690714111f05c6a77851fdd23ad3d5528a8532b9f375612",
-        "size": 880928
+        "url": "dist/thansa-remotion-1.0.4.zip",
+        "sha256": "915889633b236ef867c6fcf9c9827e95e4f3b148f4763174fbb114d1a248ab70",
+        "size": 880924
       }
     },
     {
@@ -15500,6 +15500,89 @@
         "url": "dist/thansa-claude-seo-1.0.2.zip",
         "sha256": "43cbe2cbdd26e1c8bfff926ed32c0d24603f7d1aaf14bacf2d7ed14419b6bdbd",
         "size": 675219
+      }
+    },
+    {
+      "id": "thansa.scrapling",
+      "kind": "connector",
+      "name": {
+        "vi": "Scrapling",
+        "en": "Scrapling"
+      },
+      "description": {
+        "vi": "Cào dữ liệu web bằng Scrapling, thư viện mã nguồn mở hơn 100 nghìn sao: tải trang nhanh giả dạng trình duyệt thật, mở trình duyệt ẩn danh cho trang chạy JavaScript hoặc có Cloudflare, lấy đúng phần cần bằng CSS selector và trả về Markdown gọn cho AI đọc. Chạy ngay trên máy bạn, không cần API key, không tốn phí theo lượt.",
+        "en": "Scrape the web with Scrapling, the 100k-star open-source library: fast fetches that impersonate a real browser, a stealth browser for JavaScript pages and Cloudflare, CSS selectors to keep only what you need, clean Markdown for the AI. Runs on your own machine, no API key, no per-call fees."
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Karim Shoair (D4Vinci)",
+        "url": "https://github.com/D4Vinci/Scrapling"
+      },
+      "category": "website",
+      "category_label": {
+        "vi": "Website",
+        "en": "Website"
+      },
+      "tier": "code",
+      "verified": true,
+      "updated": "2026-11-12",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.scrapling",
+      "icon": "packs/thansa.scrapling/assets/scrapling.png",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "license": "BSD-3-Clause",
+      "provides": {
+        "connectors": [
+          "scrapling"
+        ]
+      },
+      "download": {
+        "url": "dist/thansa-scrapling-1.0.0.zip",
+        "sha256": "cf2bf89b503fbc312d591b99c5e28ff11a570d2ae397acda2ae924387ff3562f",
+        "size": 23986
+      }
+    },
+    {
+      "id": "thansa.scrapling-skill",
+      "kind": "skill",
+      "name": {
+        "vi": "Scrapling: Skill cào dữ liệu web",
+        "en": "Scrapling: Web scraping skill"
+      },
+      "description": {
+        "vi": "Skill chính chủ của Scrapling, thư viện cào web hơn 100 nghìn sao: dạy AI viết mã cào đúng API mới nhất, từ tải một trang, vượt chống bot (Cloudflare), chạy JavaScript, tới spider cào cả site có tạm dừng và chạy tiếp. Cần Python 3.10 trở lên. Dùng tốt nhất với bộ não có shell.",
+        "en": "The official skill for Scrapling, the 100k-star web scraping library: teaches the AI to write scrapers against the current API, from a single fetch, anti-bot bypass (Cloudflare) and JavaScript rendering to full-site spiders with pause and resume. Needs Python 3.10+. Works best on an engine with a shell."
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Karim Shoair (D4Vinci)",
+        "url": "https://github.com/D4Vinci/Scrapling"
+      },
+      "category": "lap-trinh",
+      "category_label": {
+        "vi": "Lập trình",
+        "en": "Development"
+      },
+      "tier": "code",
+      "verified": true,
+      "updated": "2026-11-12",
+      "homepage": "https://github.com/xahoapro/thansa-store/tree/main/packs/thansa.scrapling-skill",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "license": "BSD-3-Clause",
+      "upstream": {
+        "repo": "D4Vinci/Scrapling",
+        "ref": "main",
+        "commit": "bb223f2f5fc8f743772751a5ce283ef7851ca6be",
+        "synced": "2026-11-12"
+      },
+      "provides": {
+        "skills": [
+          "scrapling-official"
+        ]
+      },
+      "download": {
+        "url": "dist/thansa-scrapling-skill-1.0.0.zip",
+        "sha256": "8ab1f5e073073bcc39363722b508b23692b0133204ceb496345686ecd52cb32f",
+        "size": 100216
       }
     }
   ]
